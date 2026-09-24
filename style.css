@@ -72,7 +72,7 @@ img { display: block; max-width: 100%; }
 .watermark-bg {
     position: fixed;
     inset: 0;
-    background-image: url('Images/logo_clear.jpg');
+    background-image: url('images/logo_clear.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: min(52vw, 760px) auto;
