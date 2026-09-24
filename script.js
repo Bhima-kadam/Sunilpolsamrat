@@ -1,7 +1,7 @@
 const productCatalog = {
   'ss-letters': {
     title: 'Stainless Steel Letters',
-    hero: 'Images/project-signage-1_clear.jpg',
+    hero: 'images/project-signage-1_clear.jpg',
     tag: 'Premium 3D lettering',
     summary: 'High-end stainless steel lettering crafted with precision finishing for retail storefronts, corporate offices, and premium brand identities.',
     features: ['Mirror finish options', 'Custom sizing and thickness', 'Outdoor-grade durable build', 'Precision fabrication'],
@@ -10,7 +10,7 @@ const productCatalog = {
   },
   'gold-letters': {
     title: 'Stainless Steel Gold Letters',
-    hero: 'Images/5_princess_gold_signboard.png',
+    hero: 'images/5_princess_gold_signboard.png',
     tag: 'Luxury gold finish',
     summary: 'Gold-tone stainless steel letters add premium look and strong visibility for flagship stores, hospitality spaces, and signature commercial branding.',
     features: ['Golden powder-coated finish', 'Strong metallic durability', 'Eye-catching visual depth', 'Low maintenance'],
@@ -19,7 +19,7 @@ const productCatalog = {
   },
   'aluminum-letters': {
     title: 'Aluminium Letters',
-    hero: 'Images/commercial-board_clear.jpg',
+    hero: 'images/commercial-board_clear.jpg',
     tag: 'Lightweight, versatile',
     summary: 'Aluminium letters provide a perfect mix of durability, weight efficiency, and strong branding appeal for both indoor and outdoor usage.',
     features: ['Rust-resistant material', 'Weather-ready performance', 'Easy custom dimensions', 'Strong branding impact'],
@@ -28,7 +28,7 @@ const productCatalog = {
   },
   'acrylic-letters': {
     title: 'Acrylic Letters',
-    hero: 'Images/office-entrance-signage_clear.jpg',
+    hero: 'images/office-entrance-signage_clear.jpg',
     tag: 'Modern & vibrant',
     summary: 'Acrylic lettering creates sleek modern brand presentations with clean edges, color flexibility, and a polished premium appearance.',
     features: ['Multiple colour finishes', 'Gloss or matte surface', 'Suitable for reception signage', 'Professional detailing'],
@@ -37,7 +37,7 @@ const productCatalog = {
   },
   'neon-board': {
     title: 'Neon Sign Board',
-    hero: 'Images/glow-sign-lighting_clear.jpg',
+    hero: 'images/glow-sign-lighting_clear.jpg',
     tag: 'High visibility branding',
     summary: 'Bright, attention-grabbing neon signage offers excellent visibility in nightlife markets, cafes, salons, and retail frontages.',
     features: ['Energy-efficient LED neon', 'Custom font and color selection', 'Night visibility', 'Strong visual appeal'],
@@ -46,7 +46,7 @@ const productCatalog = {
   },
   '3d-glow': {
     title: '3D Glow Sign Board',
-    hero: 'Images/glow-signage-board_clear.jpg',
+    hero: 'images/glow-signage-board_clear.jpg',
     tag: 'Standout storefront impact',
     summary: '3D glowing sign boards combine depth, animation-ready finishes, and strong branding visibility for elevated storefront presence.',
     features: ['3D dimensional depth', 'LED glow illumination', 'Works in all weather', 'Premium aesthetic finish'],
@@ -55,7 +55,7 @@ const productCatalog = {
   },
   'pylon-board': {
     title: 'Pylon Sign Board',
-    hero: 'Images/7_arb_pylon_signboard.png',
+    hero: 'images/7_arb_pylon_signboard.png',
     tag: 'Highway visibility',
     summary: 'Large-format pylon boards help businesses become visible from a distance and attract traffic from busy roads and highways.',
     features: ['Large-format visibility', 'Heavy-duty fabrication', 'Road-facing illumination', 'Custom branding layouts'],
@@ -64,7 +64,7 @@ const productCatalog = {
   },
   'modular-signage': {
     title: 'Modular Signage',
-    hero: 'Images/corporate-wayfinding-signs_clear.jpg',
+    hero: 'images/corporate-wayfinding-signs_clear.jpg',
     tag: 'Flexible branding system',
     summary: 'Modular signage solutions are ideal for businesses that require a professional and adaptable signage system across multiple locations.',
     features: ['Easy maintenance access', 'Scalable system design', 'Premium visual appearance', 'Fast installation'],
@@ -73,7 +73,7 @@ const productCatalog = {
   },
   'acp-cladding': {
     title: 'ACP Cladding',
-    hero: 'Images/premium-facade_clear.jpg',
+    hero: 'images/premium-facade_clear.jpg',
     tag: 'Architectural finish',
     summary: 'ACP cladding enhances building aesthetics with weatherproof, modern facade coverage that improves both appearance and value.',
     features: ['Architectural aesthetics', 'Weather resistance', 'Low maintenance', 'Premium facade finish'],
@@ -183,14 +183,14 @@ const projectItems = [
   { title: 'Glow Sign Lighting', category: 'Neon', image: 'images/glow-sign-lighting_clear.jpg' },
   { title: 'Glow Signage Board', category: 'LED', image: 'images/glow-signage-board_clear.jpg' },
   { title: 'Office Branding', category: 'Acrylic', image: 'images/office-branding_clear.jpg' },
-  { title: 'Office Entrance Signage', category: 'Acrylic', image: images/office-entrance-signage_clear.jpg' },
+  { title: 'Office Entrance Signage', category: 'Acrylic', 'images: images/office-entrance-signage_clear.jpg' },
   { title: 'Outdoor Advertising', category: 'Outdoor', image: 'images/outdoor-advertising_clear.jpg' },
   { title: 'Outdoor Branding Board', category: 'Outdoor', image: 'images/outdoor-branding-board_clear.jpg' },
   { title: 'Premium Facade', category: '3D Letters', image: 'images/premium-facade_clear.jpg' },
   { title: 'Corporate Wayfinding', category: 'ACP', image: 'images/corporate-wayfinding-signs_clear.jpg' }
   ,{ title: 'Fabrication Work', category: 'ACP', image: 'images/fabrication-work_clear.jpg' }
   ,{ title: 'Frontage Branding', category: 'Outdoor', image: 'images/frontage-branding_clear.jpg' }
-  ,{ title: 'Rashtrakuta Palace Signboard', category: 'Outdoor', image: 'Images/4_rashtrakuta_palace_signboard.png' }
+  ,{ title: 'Rashtrakuta Palace Signboard', category: 'Outdoor', image: 'images/4_rashtrakuta_palace_signboard.png' }
   ,{ title: 'ARB Pylon Signboard', category: 'Outdoor', image: 'images/7_arb_pylon_signboard.png' }
   ,{ title: 'Akshaya Directory Signboard', category: 'ACP', image: 'images/8_akshaya_directory_signboard.png' }
   ,{ title: 'Custom Signage Concept', category: '3D Letters', image: 'images/ChatGPT Image Sep 23, 2026, 07_35_20 PM.png' }
