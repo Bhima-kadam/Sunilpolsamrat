@@ -176,26 +176,26 @@ const productContent = {
 };
 
 const projectItems = [
-  { title: 'Frontage Branding', category: 'Outdoor', image: 'Images/project-signage-1_clear.jpg' },
-  { title: '3D Letter Storefront', category: '3D Letters', image: 'Images/project-signage-2_clear.jpg' },
-  { title: 'LED Signage', category: 'LED', image: 'Images/project-signage-3_clear.jpg' },
-  { title: 'Commercial Board', category: 'ACP', image: 'Images/commercial-board_clear.jpg' },
-  { title: 'Glow Sign Lighting', category: 'Neon', image: 'Images/glow-sign-lighting_clear.jpg' },
-  { title: 'Glow Signage Board', category: 'LED', image: 'Images/glow-signage-board_clear.jpg' },
-  { title: 'Office Branding', category: 'Acrylic', image: 'Images/office-branding_clear.jpg' },
-  { title: 'Office Entrance Signage', category: 'Acrylic', image: 'Images/office-entrance-signage_clear.jpg' },
-  { title: 'Outdoor Advertising', category: 'Outdoor', image: 'Images/outdoor-advertising_clear.jpg' },
-  { title: 'Outdoor Branding Board', category: 'Outdoor', image: 'Images/outdoor-branding-board_clear.jpg' },
-  { title: 'Premium Facade', category: '3D Letters', image: 'Images/premium-facade_clear.jpg' },
-  { title: 'Corporate Wayfinding', category: 'ACP', image: 'Images/corporate-wayfinding-signs_clear.jpg' }
-  ,{ title: 'Fabrication Work', category: 'ACP', image: 'Images/fabrication-work_clear.jpg' }
-  ,{ title: 'Frontage Branding', category: 'Outdoor', image: 'Images/frontage-branding_clear.jpg' }
+  { title: 'Frontage Branding', category: 'Outdoor', image: 'images/project-signage-1_clear.jpg' },
+  { title: '3D Letter Storefront', category: '3D Letters', image: 'images/project-signage-2_clear.jpg' },
+  { title: 'LED Signage', category: 'LED', image: 'images/project-signage-3_clear.jpg' },
+  { title: 'Commercial Board', category: 'ACP', image: 'images/commercial-board_clear.jpg' },
+  { title: 'Glow Sign Lighting', category: 'Neon', image: 'images/glow-sign-lighting_clear.jpg' },
+  { title: 'Glow Signage Board', category: 'LED', image: 'images/glow-signage-board_clear.jpg' },
+  { title: 'Office Branding', category: 'Acrylic', image: 'images/office-branding_clear.jpg' },
+  { title: 'Office Entrance Signage', category: 'Acrylic', image: images/office-entrance-signage_clear.jpg' },
+  { title: 'Outdoor Advertising', category: 'Outdoor', image: 'images/outdoor-advertising_clear.jpg' },
+  { title: 'Outdoor Branding Board', category: 'Outdoor', image: 'images/outdoor-branding-board_clear.jpg' },
+  { title: 'Premium Facade', category: '3D Letters', image: 'images/premium-facade_clear.jpg' },
+  { title: 'Corporate Wayfinding', category: 'ACP', image: 'images/corporate-wayfinding-signs_clear.jpg' }
+  ,{ title: 'Fabrication Work', category: 'ACP', image: 'images/fabrication-work_clear.jpg' }
+  ,{ title: 'Frontage Branding', category: 'Outdoor', image: 'images/frontage-branding_clear.jpg' }
   ,{ title: 'Rashtrakuta Palace Signboard', category: 'Outdoor', image: 'Images/4_rashtrakuta_palace_signboard.png' }
-  ,{ title: 'ARB Pylon Signboard', category: 'Outdoor', image: 'Images/7_arb_pylon_signboard.png' }
-  ,{ title: 'Akshaya Directory Signboard', category: 'ACP', image: 'Images/8_akshaya_directory_signboard.png' }
-  ,{ title: 'Custom Signage Concept', category: '3D Letters', image: 'Images/ChatGPT Image Sep 23, 2026, 07_35_20 PM.png' }
-  ,{ title: 'Illuminated Brand Concept', category: 'LED', image: 'Images/ChatGPT Image Sep 23, 2026, 07_39_31 PM.png' }
-  ,{ title: 'Outdoor Signage Concept', category: 'Neon', image: 'Images/ChatGPT Image Sep 23, 2026, 07_42_14 PM.png' }
+  ,{ title: 'ARB Pylon Signboard', category: 'Outdoor', image: 'images/7_arb_pylon_signboard.png' }
+  ,{ title: 'Akshaya Directory Signboard', category: 'ACP', image: 'images/8_akshaya_directory_signboard.png' }
+  ,{ title: 'Custom Signage Concept', category: '3D Letters', image: 'images/ChatGPT Image Sep 23, 2026, 07_35_20 PM.png' }
+  ,{ title: 'Illuminated Brand Concept', category: 'LED', image: 'images/ChatGPT Image Sep 23, 2026, 07_39_31 PM.png' }
+  ,{ title: 'Outdoor Signage Concept', category: 'Neon', image: 'images/ChatGPT Image Sep 23, 2026, 07_42_14 PM.png' }
 ];
 
 function renderProjectGallery(filter = 'All') {
