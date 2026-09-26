@@ -697,6 +697,22 @@ function bindProjectFilters() {
 
 }
 
+function bindFaqSeeMore() {
+
+  const faqSection = document.querySelector('.reference-faq-section');
+  const toggle = faqSection?.querySelector('.reference-faq-see-more');
+
+  if (!faqSection || !toggle) {
+    return;
+  }
+
+  toggle.addEventListener('click', () => {
+    const expanded = faqSection.classList.toggle('is-expanded');
+    toggle.textContent = expanded ? 'See Less' : 'See More';
+  });
+
+}
+
 
 /* =========================================================
    LOAD MORE PROJECTS
@@ -1035,6 +1051,8 @@ document.addEventListener(
         */
 
         bindProjectFilters();
+
+        bindFaqSeeMore();
 
 
         /*

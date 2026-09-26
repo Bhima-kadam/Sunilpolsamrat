@@ -3286,6 +3286,307 @@ font-size:2rem;
         font-size: 40px !important;
     }
 }
+
+@media (min-width: 601px) and (max-width: 768px) {
+    .about-reference-page .nav-container {
+        height: 86px;
+        padding: 0;
+        flex-direction: row;
+        gap: 0;
+    }
+
+    .about-reference-page .nav-links {
+        flex-wrap: nowrap;
+        gap: 0;
+    }
+
+    .about-reference-page .nav-links > li {
+        height: 80px;
+    }
+
+    .about-reference-page .nav-links > li > a {
+        padding: 0 7px;
+        font-size: 0.68rem;
+    }
+
+    .reference-about-hero,
+    .reference-why-section {
+        grid-template-columns: 1fr 1.12fr;
+    }
+
+    .reference-about-image {
+        min-height: 350px;
+    }
+
+    .reference-values-section,
+    .reference-process-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .reference-process-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .reference-value {
+        min-height: 155px;
+        padding: 0 14px;
+        border-right: 1px solid #d6dce1;
+        border-bottom: 0;
+    }
+
+    .reference-value:last-child {
+        border-right: 0;
+    }
+
+    .reference-team-grid {
+        grid-template-columns: repeat(2, minmax(0, 255px));
+    }
+
+    .reference-why-points {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .reference-why-points > div:nth-child(2) {
+        border-right: 1px solid #44505c;
+    }
+}
+
+.about-reference-page .reference-team-section {
+    background: #f3f6fb;
+}
+
+.about-reference-page .reference-team-section .section-heading h2,
+.about-reference-page .reference-team-section .section-heading p {
+    color: #333333;
+}
+
+.about-reference-page .reference-team-section .section-heading h2 {
+    font-size: clamp(1.45rem, 2.2vw, 1.9rem);
+}
+
+.about-reference-page .reference-team-section {
+    background: #f3f6fb;
+}
+
+/* Light About page variant */
+.about-reference-page,
+.about-reference-page .reference-about-page,
+.about-reference-page .reference-about-hero,
+.about-reference-page .reference-team-section,
+.about-reference-page .reference-why-section {
+    background: #ffffff;
+    color: var(--dark-charcoal);
+}
+
+.about-reference-page header {
+    background: #ffffff;
+    border-bottom-color: var(--border-color);
+    box-shadow: 0 10px 25px rgba(16, 43, 78, 0.04);
+}
+
+.about-reference-page .brand-name,
+.about-reference-page .nav-links > li > a,
+.about-reference-page .reference-about-copy h1,
+.about-reference-page .reference-about-copy h2,
+.about-reference-page .reference-team-section .section-heading h2,
+.about-reference-page .reference-team-section .section-heading p,
+.about-reference-page .reference-why-copy h2 {
+    color: var(--dark-charcoal);
+}
+
+.about-reference-page .brand-sub,
+.about-reference-page .reference-about-copy p,
+.about-reference-page .reference-why-copy > p,
+.about-reference-page .reference-why-points span {
+    color: var(--text-muted);
+}
+
+.about-reference-page .reference-about-hero {
+    border-bottom-color: var(--border-color);
+}
+
+.about-reference-page .reference-team-card {
+    border-color: var(--border-color);
+    background: #f8f9fa;
+    box-shadow: var(--shadow-soft);
+}
+
+.about-reference-page .reference-value,
+.about-reference-page .reference-why-points > div {
+    border-color: var(--border-color);
+}
+
+.about-reference-page .reference-why-points strong {
+    color: var(--dark-charcoal);
+}
+
+.about-reference-page .reference-value > i {
+    background: #ffffff;
+}
+
+/* Team section reference format */
+.about-reference-page .reference-team-section {
+    margin-top: 32px;
+    padding: 34px 4% 56px;
+    background: #f3f6fb !important;
+}
+
+.about-reference-page .reference-team-section .section-heading {
+    margin-bottom: 58px;
+}
+
+.about-reference-page .reference-team-section .section-heading .eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 14px;
+    color: #d31a27;
+    font-size: 1rem;
+    letter-spacing: 0.03em;
+}
+
+.about-reference-page .reference-team-section .section-heading .eyebrow::after {
+    content: "";
+    width: 84px;
+    height: 3px;
+    background: #d31a27;
+}
+
+.about-reference-page .reference-team-section .section-heading h2 {
+    margin: 32px 0 24px;
+    color: #333333;
+    font-size: clamp(1.45rem, 2.2vw, 1.9rem);
+    line-height: 1.12;
+}
+
+.about-reference-page .reference-team-section .section-heading p {
+    color: #222222;
+    font-size: 1rem;
+}
+
+.about-reference-page .reference-team-grid {
+    width: min(100%, 1000px);
+    gap: 38px;
+}
+
+.about-reference-page .reference-team-card {
+    position: relative;
+    overflow: visible;
+    border: 4px solid #d4515b;
+    border-radius: 15px;
+    background: transparent;
+    box-shadow: 0 0 0 2px #7c57d8 inset;
+}
+
+.about-reference-page .reference-team-card > img,
+.about-reference-page .reference-team-card .reference-placeholder-image {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1.25;
+    border-radius: 10px;
+}
+
+.about-reference-page .reference-team-card > img {
+    object-fit: cover;
+}
+
+.about-reference-page .reference-team-card > div:last-child {
+    position: absolute;
+    right: 7%;
+    bottom: -46px;
+    left: 7%;
+    min-height: 74px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 12px;
+    border-radius: 12px;
+    background: #ffffff;
+    box-shadow: 0 10px 18px rgba(23, 35, 55, 0.18);
+    text-align: center;
+}
+
+.about-reference-page .reference-team-card h3 {
+    color: #061b5d;
+    font-size: 1.15rem;
+}
+
+.about-reference-page .reference-team-card p {
+    margin-top: 4px;
+    color: #c08d1b;
+    font-size: 0.76rem;
+}
+
+@media (max-width: 600px) {
+    .about-reference-page .reference-team-section {
+        margin-top: 20px;
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+
+    .about-reference-page .reference-team-section .section-heading {
+        margin-bottom: 48px;
+    }
+
+    .about-reference-page .reference-team-grid {
+        gap: 64px;
+    }
+}
+
+/* Light About page variant */
+.about-reference-page,
+.about-reference-page .reference-about-page,
+.about-reference-page .reference-about-hero,
+.about-reference-page .reference-team-section,
+.about-reference-page .reference-why-section {
+    background: #ffffff;
+    color: var(--dark-charcoal);
+}
+
+.about-reference-page header {
+    background: rgba(255, 255, 255, 0.96);
+    border-bottom-color: var(--border-color);
+}
+
+.about-reference-page .brand-name,
+.about-reference-page .nav-links > li > a,
+.about-reference-page .reference-about-copy h1,
+.about-reference-page .reference-about-copy h2,
+.about-reference-page .reference-team-section .section-heading h2,
+.about-reference-page .reference-team-section .section-heading p,
+.about-reference-page .reference-why-copy h2 {
+    color: var(--dark-charcoal);
+}
+
+.about-reference-page .brand-sub,
+.about-reference-page .reference-about-copy p,
+.about-reference-page .reference-why-copy > p,
+.about-reference-page .reference-why-points span {
+    color: var(--text-muted);
+}
+
+.about-reference-page .reference-about-hero {
+    border-bottom-color: var(--border-color);
+}
+
+.about-reference-page .reference-team-card {
+    border-color: var(--border-color);
+    background: #f8f9fa;
+    box-shadow: var(--shadow-soft);
+}
+
+.about-reference-page .reference-value,
+.about-reference-page .reference-why-points > div {
+    border-color: var(--border-color);
+}
+
+.about-reference-page .reference-why-points strong {
+    color: var(--dark-charcoal);
+}
+
+.about-reference-page .reference-value > i {
+    background: #ffffff;
+}
 @media(max-width:480px){
 
 .about-page-section .about-main-heading{
@@ -3293,9 +3594,814 @@ font-size:2rem;
 line-height:1.2;
 }
 
+}
+
+/* =========================================
+   REFERENCE ABOUT PAGE
+========================================= */
+
+.about-reference-page {
+    background: #ffffff;
+    color: var(--dark-charcoal);
+}
+
+.about-reference-page header {
+    background: #ffffff;
+    border-bottom-color: var(--border-color);
+    box-shadow: 0 10px 25px rgba(16, 43, 78, 0.04);
+}
+
+.about-reference-page .brand-name,
+.about-reference-page .nav-links > li > a {
+    color: var(--dark-charcoal);
+}
+
+.about-reference-page .brand-sub {
+    color: var(--text-muted);
+}
+
+.about-reference-page .reference-about-page {
+    background: #ffffff;
+}
+
+.reference-about-hero {
+    display: grid;
+    grid-template-columns: 1fr 1.12fr;
+    min-height: 350px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.24);
+}
+
+.reference-about-copy {
+    align-self: center;
+    padding: 48px clamp(28px, 5.5vw, 92px);
+}
+
+.reference-about-copy .eyebrow,
+.reference-why-copy .eyebrow,
+.reference-team-section .eyebrow,
+.reference-process-section .eyebrow {
+    margin-bottom: 12px;
+    color: #f1c64f;
+}
+
+.reference-about-copy .eyebrow {
+    font-size: 1rem;
+}
+
+.reference-about-copy h1 {
+    margin-bottom: 10px;
+    font-size: clamp(2rem, 3.2vw, 3rem);
+    line-height: 1.08;
+}
+
+.reference-about-copy h1 span {
+    color: #f1c64f;
+}
+
+.reference-about-copy h2 {
+    margin-bottom: 16px;
+    font-size: 1.05rem;
+}
+
+.reference-about-copy p {
+    max-width: 580px;
+    color: #dce1e5;
+    font-size: 0.95rem;
+    line-height: 1.65;
+}
+
+.reference-about-image {
+    position: relative;
+    min-height: 350px;
+    overflow: visible;
+}
+
+.reference-about-image img,
+.reference-why-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.reference-about-image img {
+    clip-path: ellipse(100% 92% at 100% 50%);
+    filter: drop-shadow(-2px 0 0 #d5b66e);
+}
+
+.reference-how-section {
+    display: grid;
+    grid-template-columns: 1fr 1.12fr;
+    min-height: 520px;
+    margin-top: 28px;
+    background: #071238;
+    color: #ffffff;
+}
+
+.reference-how-copy {
+    padding: 66px clamp(20px, 3.5vw, 70px) 50px;
+}
+
+.reference-how-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 28px;
+    color: #e33242;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.reference-how-label::after {
+    content: "";
+    width: 105px;
+    height: 3px;
+    background: #e33242;
+}
+
+.reference-how-copy h2 {
+    margin-bottom: 32px;
+    color: #ffffff;
+    font-size: clamp(1.5rem, 3.2vw, 2.65rem);
+    line-height: 1.15;
+    white-space: nowrap;
+}
+
+.reference-how-copy > p {
+    max-width: 650px;
+    margin-bottom: 64px;
+    color: #ffffff;
+    font-size: 1rem;
+    line-height: 1.65;
+}
+
+.reference-how-points {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 36px;
+}
+
+.reference-how-points article {
+    min-width: 0;
+}
+
+.reference-how-points i {
+    margin-bottom: 18px;
+    color: #e33242;
+    font-size: 3rem;
+}
+
+.reference-how-points h3 {
+    margin-bottom: 18px;
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+
+.reference-how-points p {
+    color: #ffffff;
+    font-size: 0.88rem;
+    line-height: 1.5;
+}
+
+.reference-how-image {
+    min-height: 520px;
+    overflow: hidden;
+    background: #e8eef1;
+}
+
+.reference-how-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 0;
+    clip-path: none;
+}
+
+.reference-choose-section {
+    margin-top: 32px;
+    padding: 60px 4% 68px;
+    background: #ffffff;
+    color: #333333;
+}
+
+.reference-choose-heading {
+    margin: 0 auto 54px;
+    text-align: center;
+}
+
+.reference-choose-heading > span {
+    display: inline-flex;
+    align-items: center;
+    gap: 14px;
+    color: #cf1118;
+    font-size: 1rem;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+
+.reference-choose-heading > span::after {
+    content: "";
+    width: 84px;
+    height: 3px;
+    background: #cf1118;
+}
+
+.reference-choose-heading h2 {
+    margin: 32px 0 42px;
+    color: #333333;
+    font-size: clamp(2.1rem, 4vw, 3.2rem);
+    line-height: 1.1;
+}
+
+.reference-choose-heading p {
+    font-size: 1rem;
+}
+
+.reference-choose-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 24px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.reference-choose-grid article {
+    min-height: 295px;
+    padding: 28px;
+    border-radius: 18px;
+    background: #cf1118;
+    color: #ffffff;
+}
+
+.reference-choose-grid i {
+    display: block;
+    margin-bottom: 25px;
+    font-size: 3rem;
+}
+
+.reference-choose-grid h3 {
+    margin-bottom: 18px;
+    color: #ffffff;
+    font-size: 1.12rem;
+}
+
+.reference-choose-grid p {
+    color: #ffffff;
+    font-size: 0.92rem;
+    line-height: 1.55;
+}
+
+.reference-team-section {
+    padding: 34px 4% 40px;
+    background: #ffffff;
+}
+
+.reference-team-section .section-heading {
+    margin-bottom: 20px;
+}
+
+.reference-team-section .section-heading h2,
+.reference-team-section .section-heading p {
+    color: #f5f7f8;
+}
+
+.reference-team-section .section-heading h2 {
+    font-size: clamp(1.45rem, 2.2vw, 1.9rem);
+}
+
+.reference-team-section .section-heading p {
+    margin-top: 6px;
+    font-size: 0.86rem;
+}
+
+.reference-team-section .section-heading .eyebrow {
+    font-size: 1.05rem;
+}
+
+.reference-team-grid {
+    display: grid;
+    width: min(100%, 930px);
+    margin: 0 auto;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    justify-content: center;
+    gap: 18px;
+}
+
+.reference-team-card {
+    overflow: hidden;
+    border: 1px solid #68717a;
+    border-radius: 7px;
+    background: #121c27;
+}
+
+.reference-team-card > img {
+    width: 100%;
+    aspect-ratio: 1.15;
+    object-fit: cover;
+}
+
+.reference-placeholder-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    aspect-ratio: 1.25;
+    color: var(--dark-gold);
+    background: #eef1f3;
+}
+
+.reference-placeholder-image i {
+    font-size: 2rem;
+}
+
+.reference-placeholder-image span {
+    font-size: 0.78rem;
+    font-weight: 700;
+}
+
+.reference-team-card > div {
+    padding: 10px 14px 14px;
+}
+
+.reference-team-card h3 {
+    font-size: 1rem;
+}
+
+.reference-team-card p {
+    margin-top: 3px;
+    color: #f1c64f;
+    font-size: 0.78rem;
+    font-weight: 700;
+}
+
+.reference-values-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 34px;
+    padding: 30px 7%;
+    background: #f2f5f7;
+    color: #1b2632;
+}
+
+.reference-value {
+    min-height: 155px;
+    padding: 0 28px;
+    border-right: 1px solid #d6dce1;
+}
+
+.reference-value:last-child {
+    border-right: 0;
+}
+
+.reference-value > i {
+    display: grid;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+    margin-bottom: 14px;
+    border: 2px solid #f1c64f;
+    border-radius: 50%;
+    color: #f1c64f;
+    background: #101923;
+}
+
+.reference-value h3 {
+    margin-bottom: 8px;
+    font-size: 1.2rem;
+}
+
+.reference-value p,
+.reference-value li {
+    font-size: 0.92rem;
+    line-height: 1.55;
+}
+
+.reference-value ul {
+    padding-left: 16px;
+    list-style: none;
+}
+
+.reference-value li::before {
+    content: "✓";
+    margin-right: 7px;
+    color: #c29a28;
+}
+
+.reference-faq-section {
+    margin-top: 42px;
+    padding: 34px 7% 58px;
+    background: #f3f6fb;
+    color: #222222;
+}
+
+.reference-faq-heading {
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+.reference-faq-heading span {
+    display: inline-flex;
+    align-items: center;
+    gap: 14px;
+    color: #d31a27;
+    font-size: 1rem;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.reference-faq-heading span::after {
+    content: "";
+    width: 80px;
+    height: 3px;
+    background: #d31a27;
+}
+
+.reference-faq-heading h2 {
+    margin-top: 26px;
+    color: #293b7a;
+    font-size: clamp(2rem, 4vw, 3rem);
+}
+
+.reference-faq-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 7%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.reference-faq-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.reference-faq-column button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+    min-height: 72px;
+    padding: 14px 0;
+    border: 0;
+    border-bottom: 1px solid #b9c3d7;
+    background: transparent;
+    color: #111111;
+    cursor: pointer;
+    font: inherit;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: left;
+}
+
+.reference-faq-column button span {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.reference-faq-column button i {
+    flex: 0 0 auto;
+    color: #3e62c2;
+    font-size: 1.05rem;
+}
+
+.reference-faq-column button b {
+    flex: 0 0 auto;
+    color: #d31a27;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.reference-faq-extra {
+    display: none !important;
+}
+
+.reference-faq-section.is-expanded .reference-faq-extra {
+    display: flex !important;
+}
+
+.reference-faq-see-more {
+    display: block;
+    margin: 32px auto 0;
+    padding: 0 0 3px;
+    border: 0;
+    border-bottom: 1px solid #d31a27;
+    background: transparent;
+    color: #d31a27;
+    cursor: pointer;
+    font: inherit;
+    font-size: 1rem;
+}
+
+@media (max-width: 600px) {
+    .reference-faq-section {
+        margin-top: 28px;
+        padding: 34px 24px 48px;
+    }
+
+    .reference-faq-grid {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+}
+
+.reference-why-section {
+    display: grid;
+    grid-template-columns: 0.8fr 1.2fr;
+    gap: 28px;
+    align-items: center;
+    padding: 30px 7%;
+    background: #ffffff;
+}
+
+.reference-why-image {
+    height: 210px;
+    overflow: hidden;
+    border-radius: 7px;
+}
+
+.reference-why-copy h2 {
+    margin-bottom: 5px;
+    font-size: 1.35rem;
+}
+
+.reference-why-copy > p {
+    max-width: 560px;
+    margin-bottom: 18px;
+    color: #dce1e5;
+    font-size: 0.78rem;
+}
+
+.reference-why-points {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.reference-why-points > div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 0 14px;
+    border-right: 1px solid #44505c;
+    text-align: center;
+}
+
+.reference-why-points > div:last-child {
+    border-right: 0;
+}
+
+.reference-why-points i {
+    color: #f1c64f;
+    font-size: 1.25rem;
+}
+
+.reference-why-points strong,
+.reference-why-points span {
+    font-size: 0.7rem;
+    line-height: 1.25;
+}
+
+.reference-why-points span {
+    color: #dce1e5;
+}
+
+.reference-process-section {
+    padding: 22px 7% 30px;
+    background: #f2f5f7;
+    color: #1b2632;
+}
+
+.reference-process-section .section-heading {
+    margin-bottom: 10px;
+}
+
+.reference-process-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+}
+
+.reference-process-grid > div {
+    position: relative;
+    display: grid;
+    grid-template-columns: 38px 1fr;
+    column-gap: 8px;
+    align-items: center;
+}
+
+.reference-process-grid b {
+    grid-row: span 3;
+    display: grid;
+    place-items: center;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: #111a24;
+    color: #fff;
+    font-size: 0.75rem;
+}
+
+.reference-process-grid i {
+    color: #293541;
+}
+
+.reference-process-grid h3 {
+    font-size: 0.78rem;
+}
+
+.reference-process-grid p {
+    font-size: 0.68rem;
+    line-height: 1.3;
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+    .reference-how-section {
+        grid-template-columns: 1.2fr 1fr;
+    }
+
+    .reference-how-copy h2 {
+        font-size: 1.5rem;
+        white-space: nowrap;
+    }
+}
+
+@media (max-width: 600px) {
+    .reference-about-hero,
+    .reference-why-section {
+        grid-template-columns: 1fr;
+    }
+
+    .reference-about-image {
+        min-height: 260px;
+    }
+
+    .reference-how-section {
+        grid-template-columns: 1fr;
+        margin-top: 20px;
+    }
+
+    .reference-how-copy {
+        padding: 48px 24px;
+    }
+
+    .reference-how-copy h2 {
+        white-space: normal;
+    }
+
+    .reference-how-image {
+        min-height: 280px;
+    }
+
+    .reference-how-points {
+        gap: 24px;
+    }
+
+    .reference-choose-section {
+        margin-top: 20px;
+        padding: 44px 24px 50px;
+    }
+
+    .reference-choose-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .reference-choose-grid article {
+        min-height: 0;
+    }
+
+    .reference-values-section,
+    .reference-process-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .reference-values-section {
+        margin-top: 20px;
+    }
+
+    .reference-team-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .reference-value {
+        min-height: 0;
+        padding: 0 0 18px;
+        border-right: 0;
+        border-bottom: 1px solid #d6dce1;
+    }
+
+    .reference-value:last-child {
+        border-bottom: 0;
+    }
+
+    .reference-why-points {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px 0;
+    }
+
+    .reference-why-points > div:nth-child(2) {
+        border-right: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .reference-team-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .reference-about-copy {
+        padding: 35px 24px;
+    }
+
+    .reference-why-section,
+    .reference-values-section,
+    .reference-process-section {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .reference-about-image {
+        overflow: hidden;
+    }
+
+    .reference-about-image img {
+        clip-path: none;
+        filter: none;
+    }
+}
+
 .about-content-block h3{
 font-size:1.4rem;
 }
 
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+    .about-reference-page .nav-container {
+        height: 86px;
+        padding: 0;
+        flex-direction: row;
+        gap: 0;
+    }
+
+    .about-reference-page .nav-links {
+        flex-wrap: nowrap;
+        gap: 0;
+    }
+
+    .about-reference-page .nav-links > li {
+        height: 80px;
+    }
+
+    .about-reference-page .nav-links > li > a {
+        padding: 0 7px;
+        font-size: 0.68rem;
+    }
+
+    .reference-about-hero,
+    .reference-why-section {
+        display: grid;
+        grid-template-columns: 1fr 1.12fr;
+    }
+
+    .reference-about-image {
+        min-height: 350px;
+    }
+
+    .reference-values-section {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .reference-process-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .reference-value {
+        min-height: 155px;
+        padding: 0 14px;
+        border-right: 1px solid #d6dce1;
+        border-bottom: 0;
+    }
+
+    .reference-value:last-child {
+        border-right: 0;
+    }
+
+    .reference-team-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .reference-why-points {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .reference-why-points > div:nth-child(2) {
+        border-right: 1px solid #44505c;
+    }
 }
 
