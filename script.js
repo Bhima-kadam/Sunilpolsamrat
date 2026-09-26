@@ -6,7 +6,7 @@ const productCatalog = {
 
   'ss-letters': {
     title: 'Stainless Steel Letters',
-    hero: 'images/project-signage-1_clear.jpg',
+    hero: 'images/Stainless Steel.png',
     tag: 'Premium 3D lettering',
     summary: 'High-end stainless steel lettering crafted with precision finishing for retail storefronts, corporate offices, and premium brand identities.',
     features: [
@@ -20,8 +20,8 @@ const productCatalog = {
   },
 
   'gold-letters': {
-    title: 'Stainless Steel Gold Letters',
-    hero: 'images/5_princess_gold_signboard.png',
+    title: 'Gold Stainless Steel Letters',
+    hero: 'images/Stainless Steel Gold Letters.png',
     tag: 'Luxury gold finish',
     summary: 'Gold-tone stainless steel letters add premium look and strong visibility for flagship stores, hospitality spaces, and signature commercial branding.',
     features: [
@@ -36,9 +36,9 @@ const productCatalog = {
 
   'aluminum-letters': {
     title: 'Aluminium Letters',
-    hero: 'images/commercial-board_clear.jpg',
+    hero: 'images/Aluminium letters.png',
     tag: 'Lightweight, versatile',
-    summary: 'Aluminium letters provide a perfect mix of durability, weight efficiency, and strong branding appeal for both indoor and outdoor usage.',
+    summary: 'Aluminium letters are lightweight, durable, and corrosion-resistant 3D fabricated letters designed to deliver a clean, modern look for indoor and outdoor signage. Their excellent strength-to-weight ratio, weather resistance, and low maintenance make them a popular choice for long-lasting business branding on commercial buildings, offices, and retail spaces.',
     features: [
       'Rust-resistant material',
       'Weather-ready performance',
@@ -51,9 +51,9 @@ const productCatalog = {
 
   'acrylic-letters': {
     title: 'Acrylic Letters',
-    hero: 'images/office-entrance-signage_clear.jpg',
+    hero: 'images/Acrylic Letters.png',
     tag: 'Modern & vibrant',
-    summary: 'Acrylic lettering creates sleek modern brand presentations with clean edges, color flexibility, and a polished premium appearance.',
+    summary: 'Acrylic letters are premium 3D sign letters crafted from high-quality acrylic sheets, offering a sleek, glossy finish and excellent colour versatility. They provide a modern, professional appearance and can be manufactured in clear, coloured, frosted, or illuminated designs, making them ideal for creating eye-catching indoor and outdoor branding.',
     features: [
       'Multiple colour finishes',
       'Gloss or matte surface',
@@ -66,9 +66,9 @@ const productCatalog = {
 
   'neon-board': {
     title: 'Neon Sign Board',
-    hero: 'images/glow-sign-lighting_clear.jpg',
+    hero: 'images/neon-style.png',
     tag: 'High visibility branding',
-    summary: 'Bright, attention-grabbing neon signage offers excellent visibility in nightlife markets, cafes, salons, and retail frontages.',
+    summary: 'Neon sign boards are illuminated signage solutions designed to create bright, vibrant, and eye-catching brand displays. Using energy-efficient LED neon technology or traditional neon-style lighting, they provide excellent visibility both day and night while adding a modern, stylish, and memorable appearance to storefronts and commercial spaces.',
     features: [
       'Energy-efficient LED neon',
       'Custom font and color selection',
@@ -81,9 +81,9 @@ const productCatalog = {
 
   '3d-glow': {
     title: '3D Glow Sign Board',
-    hero: 'images/glow-signage-board_clear.jpg',
+    hero: 'images/3D glow sign.png',
     tag: 'Standout storefront impact',
-    summary: '3D glowing sign boards combine depth, animation-ready finishes, and strong branding visibility for elevated storefront presence.',
+    summary: '3D glow sign boards are illuminated dimensional signs that combine raised lettering with energy-efficient LED lighting to create a bright, premium, and highly visible display. Designed for both day and night visibility, they enhance brand recognition while offering excellent durability, weather resistance, and a modern appearance for commercial spaces.',
     features: [
       '3D dimensional depth',
       'LED glow illumination',
@@ -96,9 +96,9 @@ const productCatalog = {
 
   'pylon-board': {
     title: 'Pylon Sign Board',
-    hero: 'images/7_arb_pylon_signboard.png',
+    hero: 'images/pylon sign.png',
     tag: 'Highway visibility',
-    summary: 'Large-format pylon boards help businesses become visible from a distance and attract traffic from busy roads and highways.',
+    summary: 'Pylon sign boards are tall, freestanding structures designed to maximize business visibility from long distances. Built with durable materials and often illuminated with LED lighting, they help businesses attract customers, improve brand recognition, and provide clear directional guidance along highways, commercial complexes, and busy roads.',
     features: [
       'Large-format visibility',
       'Heavy-duty fabrication',
@@ -111,9 +111,9 @@ const productCatalog = {
 
   'modular-signage': {
     title: 'Modular Signage',
-    hero: 'images/corporate-wayfinding-signs_clear.jpg',
+    hero: 'images/modular signage.png',
     tag: 'Flexible branding system',
-    summary: 'Modular signage solutions are ideal for businesses that require a professional and adaptable signage system across multiple locations.',
+    summary: 'Modular signage is a flexible signage system built with interchangeable panels and components, making it easy to update information, expand branding, or replace individual sections without replacing the entire sign. It offers a clean, modern appearance, excellent durability, and a cost-effective solution for businesses with changing signage requirements.',
     features: [
       'Easy maintenance access',
       'Scalable system design',
@@ -126,9 +126,9 @@ const productCatalog = {
 
   'acp-cladding': {
     title: 'ACP Cladding',
-    hero: 'images/premium-facade_clear.jpg',
+    hero: 'images/ACP Cladding.png',
     tag: 'Architectural finish',
-    summary: 'ACP cladding enhances building aesthetics with weatherproof, modern facade coverage that improves both appearance and value.',
+    summary: 'ACP (Aluminium Composite Panel) cladding is a modern exterior finishing solution made from lightweight aluminium composite panels. It enhances the appearance of buildings while providing excellent weather resistance, durability, and low maintenance. ACP cladding is widely used to create sleek, professional facades that complement signage and strengthen a brand\'s visual identity.',
     features: [
       'Architectural aesthetics',
       'Weather resistance',
@@ -167,8 +167,8 @@ const productContent = {
     introTitle: 'Premium stainless steel gold letters in Bangalore.',
     intro: 'In modern signage, businesses are moving towards premium materials that reflect brand quality and professionalism. Stainless steel gold letters have become a top choice for high-end branding due to their elegant finish and strong visual appeal. They create a bold impression while maintaining a sophisticated look.',
     introSecond: 'Many businesses work with experienced manufacturers to create customized stainless steel gold letters in Bangalore for storefronts, offices, and commercial spaces. These letters not only enhance brand visibility but also add a touch of luxury and durability.',
-    definitionTitle: 'What Are Stainless Steel Gold Letters?',
-    definition: 'Stainless steel gold letters are 3D signage letters made from stainless steel and finished with a gold coating, such as titanium coating or electroplating. This gives them a premium metallic shine while maintaining the strength of steel.',
+    definitionTitle: 'What Are Gold Stainless Steel Letters?',
+    definition: 'Gold stainless steel letters are premium 3D metal letters crafted from high-grade stainless steel and finished with a luxurious gold coating or mirror-polished surface. They combine exceptional durability with an elegant appearance, making them ideal for creating sophisticated and long-lasting brand signage for both indoor and outdoor spaces.',
     definitionSecond: 'These letters are widely used because of their durability and resistance to rust, corrosion, and weather conditions. Stainless steel signage is known for its long lifespan and ability to maintain its appearance over time.',
     definitionThird: 'One of the key advantages is their aesthetic appeal. The gold finish adds a luxurious look, making them ideal for premium brands, hotels, and corporate offices.',
     definitionFourth: 'Additionally, these letters can be customized in different sizes, fonts, and finishes, allowing businesses to create unique and impactful signage.',
@@ -184,7 +184,7 @@ const productContent = {
       'These letters have a soft matte surface that creates a non-reflective and elegant look while maintaining a premium finish.',
       'These letters are designed with added depth to create a raised and prominent visual effect on surfaces.'
     ],
-    applications: 'Luxury showrooms, hotels, jewellery stores, premium offices and high-end retail branding.'
+    applications: 'Corporate offices, luxury retail stores, hotels, jewellery showrooms, restaurants, premium commercial buildings, reception areas, and high-end branding applications.'
   },
 
   'aluminum-letters': {
@@ -199,7 +199,7 @@ const productContent = {
       'Painted Aluminium Letters',
       'LED Aluminium Letters'
     ],
-    applications: 'Office fronts, malls, commercial buildings, institutions and wayfinding systems.'
+    applications: 'Office fronts, shopping malls, commercial buildings, educational institutions, hospitals, reception areas, business parks, and wayfinding signage.'
   },
 
   'acrylic-letters': {
@@ -207,14 +207,14 @@ const productContent = {
     intro: 'Acrylic letters create a clean, contemporary presentation for interiors, reception areas, retail walls and business fronts. Colour, thickness and finish can be tailored to the brand.',
     introSecond: 'They are available in clear, solid, translucent and coloured finishes. Acrylic can also be combined with metal backing or LED lighting to create depth and stronger visibility.',
     definitionTitle: 'What Are Acrylic Letters?',
-    definition: 'Acrylic letters are dimensional letters cut from acrylic sheets and finished with polished, matte, coloured or transparent surfaces. They can be mounted directly or combined with lighting and metal backing.',
+    definition: 'Acrylic letters are premium 3D sign letters crafted from high-quality acrylic sheets, offering a sleek, glossy finish and excellent colour versatility. They provide a modern, professional appearance and can be manufactured in clear, coloured, frosted, or illuminated designs, making them ideal for creating eye-catching indoor and outdoor branding.',
     types: [
       'Flat Acrylic Letters',
       'Raised Acrylic Letters',
       'Acrylic with Stainless Steel Backing',
       'LED Backlit Acrylic Letters'
     ],
-    applications: 'Corporate reception areas, retail interiors, salons, cafes and office branding.'
+    applications: 'Corporate reception areas, retail stores, shopping malls, salons, cafes, restaurants, offices, hospitals, educational institutions, and premium interior branding.'
   },
 
   'neon-board': {
@@ -222,14 +222,14 @@ const productContent = {
     intro: 'Neon-style signage brings colour, energy and high visibility to cafes, salons, restaurants, retail spaces and entertainment venues. Designs can follow a logo, message or custom lettering style.',
     introSecond: 'Modern LED neon is energy efficient and suitable for custom shapes, icons and lettering. It can be installed indoors or outdoors with the right backing, wiring and weather protection.',
     definitionTitle: 'What Is a Neon Sign Board?',
-    definition: 'A neon sign board uses flexible LED neon tubing shaped into letters, symbols or graphics and mounted on a clear or coloured backing. It delivers the visual character of neon with efficient, dependable operation.',
+    definition: 'Neon sign boards are illuminated signage solutions designed to create bright, vibrant, and eye-catching brand displays. Using energy-efficient LED neon technology or traditional neon-style lighting, they provide excellent visibility both day and night while adding a modern, stylish, and memorable appearance to storefronts and commercial spaces.',
     types: [
       'Open Neon Lettering',
       'LED Flex Neon',
       'Neon Logo Boards',
       'Neon Acrylic Backing Boards'
     ],
-    applications: 'Cafes, restaurants, salons, boutiques, studios and nightlife brands.'
+    applications: 'Retail stores, cafes, restaurants, bars, salons, boutiques, shopping malls, entertainment venues, hotels, offices, showrooms, and high-visibility storefronts.'
   },
 
   '3d-glow': {
@@ -237,14 +237,14 @@ const productContent = {
     intro: '3D glow sign boards combine raised lettering with controlled illumination to make a business visible during the day and at night. They are built for brand presence, readability and long-term outdoor use.',
     introSecond: 'The sign face, sides, depth and lighting colour can be customised to suit the brand. Proper fabrication and installation ensure even illumination and a clean finish on the storefront.',
     definitionTitle: 'What Is a 3D Glow Sign Board?',
-    definition: 'A 3D glow sign board is fabricated with raised letters, internal or rear LED lighting and a supporting sign structure. The depth and illumination create a clear halo or face glow around the brand.',
+    definition: '3D glow sign boards are illuminated dimensional signs that combine raised lettering with energy-efficient LED lighting to create a bright, premium, and highly visible display. Designed for both day and night visibility, they enhance brand recognition while offering excellent durability, weather resistance, and a modern appearance for commercial spaces.',
     types: [
       'Frontlit 3D Letters',
       'Backlit Halo Letters',
       'Front and Backlit Letters',
       '3D LED Box Sign Boards'
     ],
-    applications: 'Showrooms, malls, offices, clinics, restaurants and busy storefronts.'
+    applications: 'Showrooms, shopping malls, corporate offices, hospitals, clinics, restaurants, hotels, retail stores, commercial buildings, and high-visibility storefronts.'
   },
 
   'pylon-board': {
@@ -252,14 +252,14 @@ const productContent = {
     intro: 'Pylon signage helps businesses communicate their presence from a distance. Its tall, structured format is suitable for sites where visibility from roads, parking areas or multiple approach points matters.',
     introSecond: 'Pylon boards can carry a single brand, several tenant names or directional information. The structure, panel size and lighting are planned according to the site and viewing distance.',
     definitionTitle: 'What Is a Pylon Sign Board?',
-    definition: 'A pylon sign board is a tall, freestanding sign supported by a structural frame or pole. It can carry one brand or multiple tenant names and may include internal illumination.',
+    definition: 'Pylon sign boards are tall, freestanding structures designed to maximize business visibility from long distances. Built with durable materials and often illuminated with LED lighting, they help businesses attract customers, improve brand recognition, and provide clear directional guidance along highways, commercial complexes, and busy roads.',
     types: [
       'Single-Sided Pylon Signs',
       'Double-Sided Pylon Signs',
       'Multi-Tenant Directory Pylons',
       'Illuminated Roadside Pylons'
     ],
-    applications: 'Commercial complexes, malls, institutions, service centres and highway-facing businesses.'
+    applications: 'Shopping malls, fuel stations, hotels, hospitals, commercial complexes, industrial parks, automobile dealerships, educational institutions, business parks, and highway-facing businesses.'
   },
 
   'modular-signage': {
@@ -267,14 +267,14 @@ const productContent = {
     intro: 'Modular signage creates a consistent visual system across offices, campuses, stores and multiple locations. Components can be updated or expanded without replacing the entire system.',
     introSecond: 'A coordinated system improves navigation and keeps the brand presentation consistent. Panels, directories, room signs and directional markers can all follow the same design language.',
     definitionTitle: 'What Is Modular Signage?',
-    definition: 'Modular signage is a coordinated collection of interchangeable sign panels, holders, directories and identifiers designed to work together as one branding system.',
+    definition: 'Modular signage is a flexible signage system built with interchangeable panels and components, making it easy to update information, expand branding, or replace individual sections without replacing the entire sign. It offers a clean, modern appearance, excellent durability, and a cost-effective solution for businesses with changing signage requirements.',
     types: [
       'Directional Signage',
       'Room and Door Signs',
       'Directory Boards',
       'Suspended and Wall-Mounted Signs'
     ],
-    applications: 'Corporate offices, hospitals, campuses, franchise stores and multi-location brands.'
+    applications: 'Corporate offices, hospitals, educational campuses, shopping malls, business parks, industrial facilities, franchise stores, commercial complexes, hotels, and multi-location businesses.'
   },
 
   'acp-cladding': {
@@ -282,14 +282,14 @@ const productContent = {
     intro: 'ACP cladding gives building exteriors a clean, coordinated appearance while providing a practical surface for integrating signage, lighting and architectural branding.',
     introSecond: 'Panels are available in a wide range of colours and finishes, allowing the facade to match the business identity. The installation is planned around doors, windows, signage zones and existing architectural details.',
     definitionTitle: 'What Is ACP Cladding?',
-    definition: 'ACP cladding uses aluminium composite panels fixed to a designed support framework over a facade. The panels provide a smooth, weather-ready finish and can be fabricated around architectural details.',
+    definition: 'ACP (Aluminium Composite Panel) cladding is a modern exterior finishing solution made from lightweight aluminium composite panels. It enhances the appearance of buildings while providing excellent weather resistance, durability, and low maintenance. ACP cladding is widely used to create sleek, professional facades that complement signage and strengthen a brand\'s visual identity.',
     types: [
       'Solid Colour ACP Cladding',
       'Metallic Finish Cladding',
       'Signage Fascia Cladding',
       'Feature Wall and Facade Cladding'
     ],
-    applications: 'Commercial facades, office exteriors, retail buildings, showrooms and entrance upgrades.'
+    applications: 'Commercial buildings, corporate offices, retail stores, shopping malls, hospitals, hotels, educational institutions, showrooms, industrial facilities, and modern architectural facades.'
   }
 
 };
@@ -779,51 +779,19 @@ function renderProductDetail() {
         productContent[type] ||
         productContent['ss-letters'];
 
+    const applicationLabels = content.applications
+      .split(/,|\sand\s/)
+      .map(label => label.trim().replace(/\.$/, ''))
+      .filter(Boolean)
+      .slice(0, 5);
 
-    /*
-       RELATED PRODUCTS
-    */
-
-    const related =
-        Object.entries(productCatalog)
-
-            .filter(
-                ([key]) => key !== type
-            )
-
-            .slice(0, 3)
-
-            .map(
-                ([key, item]) => `
-
-                    <a
-                        class="related-card"
-                        href="product-detail.html?type=${key}"
-                    >
-
-                        <img
-                            src="${item.hero}"
-                            alt="${item.title}"
-                        >
-
-                        <div>
-
-                            <span>
-                                ${item.tag}
-                            </span>
-
-                            <h4>
-                                ${item.title}
-                            </h4>
-
-                        </div>
-
-                    </a>
-
-                `
-            )
-
-            .join('');
+    const applicationIcons = [
+      'fa-building',
+      'fa-store',
+      'fa-hotel',
+      'fa-gem',
+      'fa-utensils'
+    ];
 
 
     /*
@@ -832,89 +800,21 @@ function renderProductDetail() {
 
     container.innerHTML = `
 
-        <section class="product-introduction">
-
-            <div class="container product-copy-narrow">
-
-                <div class="section-heading left">
-
-                    <span class="eyebrow">
-                        Introduction
-                    </span>
-
-                </div>
-
-                <p>
-                    ${content.intro}
-                </p>
-
-                ${
-                    content.introSecond
-                        ? `<p>${content.introSecond}</p>`
-                        : ''
-                }
-
+        <section class="stainless-letters-hero ${type === 'gold-letters' ? 'gold-letters-hero' : ''}">
+          <div class="stainless-letters-copy">
+            <h1>${type === 'ss-letters' ? 'What Are Stainless Steel <span>Letters?</span>' : type === 'gold-letters' ? 'What Are Gold Stainless Steel <span>Letters?</span>' : content.definitionTitle}</h1>
+            <p>${type === 'ss-letters' || type === 'gold-letters' ? content.definition : product.summary}</p>
+            <p class="stainless-letters-best-for"><strong>Best suited for:</strong> ${content.applications}</p>
+            <div class="stainless-letters-applications" aria-label="Common applications">
+              ${applicationLabels.map((label, index) => `
+                <div><i class="fa-solid ${applicationIcons[index]}" aria-hidden="true"></i><span>${label}</span></div>
+              `).join('')}
             </div>
-
+          </div>
+          <div class="stainless-letters-photo">
+            <img class="stainless-letters-main-image" src="${product.hero}" alt="${product.title} signage">
+          </div>
         </section>
-
-
-        <section class="product-definition">
-
-            <div class="container product-definition-grid">
-
-                <div>
-
-                    <div class="section-heading left">
-
-                        <h2>
-                            ${content.definitionTitle}
-                        </h2>
-
-                    </div>
-
-                    <p>
-                        ${content.definition}
-                    </p>
-
-                    ${
-                        content.definitionSecond
-                            ? `<p>${content.definitionSecond}</p>`
-                            : ''
-                    }
-
-                    ${
-                        content.definitionThird
-                            ? `<p>${content.definitionThird}</p>`
-                            : ''
-                    }
-
-                    ${
-                        content.definitionFourth
-                            ? `<p>${content.definitionFourth}</p>`
-                            : ''
-                    }
-
-                    <p>
-                        <strong>
-                            Best suited for:
-                        </strong>
-
-                        ${content.applications}
-                    </p>
-
-                </div>
-
-
-                <img
-                    src="${product.hero}"
-                    alt="${product.title} example"
-                >
-
-            </div>
-
-        </section>
-
 
         <section class="product-types">
 
@@ -986,86 +886,57 @@ function renderProductDetail() {
         </section>
 
 
-        <section class="product-detail-section">
-
-            <div class="container product-info-grid">
-
-                <div class="info-panel">
-
-                    <h3>
-                        Product Highlights
-                    </h3>
-
-                    <ul>
-
-                        ${product.features.map(
-                            item => `
-                                <li>
-                                    ${item}
-                                </li>
-                            `
-                        ).join('')}
-
-                    </ul>
-
-                </div>
-
-
-                <div class="info-panel accent-panel">
-
-                    <h3>
-                        Best suited for
-                    </h3>
-
-                    <p>
-                        ${product.bestFor}
-                    </p>
-
-
-                    <h3>
-                        Our process
-                    </h3>
-
-                    <p>
-                        ${product.process}
-                    </p>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <section class="related-section">
-
-            <div class="container">
-
-                <div class="section-heading center">
-
-                    <span class="eyebrow">
-                        Explore more
-                    </span>
-
-                    <h2>
-                        Related Signage Solutions
-                    </h2>
-
-                </div>
-
-
-                <div class="related-grid">
-
-                    ${related}
-
-                </div>
-
-            </div>
-
-        </section>
-
     `;
 
+}
+
+
+function renderSignageCatalog() {
+
+  const container =
+    document.getElementById(
+      'signage-catalog-content'
+    );
+
+  const isHomePage =
+    document.getElementById('home') !== null;
+
+  const headingTag =
+    isHomePage ? 'h2' : 'h1';
+
+  if (!container) {
+    return;
+  }
+
+  container.innerHTML = `
+
+    <section id="services" class="signage-catalog-section">
+      <div class="container">
+        <div class="section-heading left">
+          <span class="eyebrow">Our Signages</span>
+          <${headingTag}>Signage Solutions</${headingTag}>
+          <p>Explore our signage range and choose a solution for your space.</p>
+        </div>
+
+        <div class="signage-catalog-grid">
+          ${Object.entries(productCatalog).map(([type, product]) => `
+            <a class="signage-catalog-card" href="product-detail.html?type=${type}">
+              <div class="signage-catalog-image">
+                <img src="${product.hero}" alt="${product.title}" loading="lazy">
+              </div>
+              <div class="signage-catalog-copy">
+                <span class="signage-catalog-tag">${product.tag}</span>
+                <h2>${product.title}</h2>
+                <p>${product.summary}</p>
+                <span class="signage-catalog-link">View signage <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></span>
+              </div>
+            </a>
+          `).join('')}
+        </div>
+      </div>
+    </section>
+
+  `;
 }
 
 
@@ -1149,6 +1020,7 @@ document.addEventListener(
         */
 
         renderProductDetail();
+        renderSignageCatalog();
 
 
         /*
