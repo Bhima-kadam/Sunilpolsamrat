@@ -3689,6 +3689,76 @@ font-size:2rem;
     }
 }
 
+@media (max-width: 900px) {
+    .nav-container,
+    .about-reference-page .nav-container {
+        width: 92%;
+        height: auto;
+        min-height: 86px;
+        padding: 12px 0;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .nav-container > nav {
+        width: 100%;
+        min-width: 0;
+    }
+
+    .nav-container .nav-links {
+        width: 100%;
+        min-width: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0 4px;
+    }
+
+    .nav-container .nav-links > li {
+        height: auto;
+        min-height: 44px;
+    }
+
+    .nav-container .nav-links > li > a {
+        height: auto;
+        min-height: 44px;
+        padding: 9px 10px;
+        font-size: clamp(.72rem, 1.5vw, .88rem);
+    }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    .about-reference-page .reference-about-hero,
+    .about-reference-page .reference-why-section {
+        grid-template-columns: 1fr;
+    }
+
+    .about-reference-page .reference-about-image {
+        min-height: clamp(300px, 56vw, 440px);
+    }
+
+    .about-reference-page .reference-how-section {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .about-reference-page .reference-how-copy h2 {
+        white-space: normal;
+    }
+
+    .about-reference-page .reference-choose-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .about-reference-page .reference-team-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .about-reference-page .reference-team-card:last-child:nth-child(odd) {
+        grid-column: 1 / -1;
+        width: min(100%, 360px);
+        justify-self: center;
+    }
+}
+
 .about-reference-page .reference-team-section {
     background: #f3f6fb;
 }
