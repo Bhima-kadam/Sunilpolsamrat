@@ -907,55 +907,6 @@ function renderProductDetail() {
 }
 
 
-function renderSignageCatalog() {
-
-  const container =
-    document.getElementById(
-      'signage-catalog-content'
-    );
-
-  const isHomePage =
-    document.getElementById('home') !== null;
-
-  const headingTag =
-    isHomePage ? 'h2' : 'h1';
-
-  if (!container) {
-    return;
-  }
-
-  container.innerHTML = `
-
-    <section id="services" class="signage-catalog-section">
-      <div class="container">
-        <div class="section-heading left">
-          <span class="eyebrow">Our Signages</span>
-          <${headingTag}>Signage Solutions</${headingTag}>
-          <p>Explore our signage range and choose a solution for your space.</p>
-        </div>
-
-        <div class="signage-catalog-grid">
-          ${Object.entries(productCatalog).map(([type, product]) => `
-            <a class="signage-catalog-card" href="product-detail.html?type=${type}">
-              <div class="signage-catalog-image">
-                <img src="${product.hero}" alt="${product.title}" loading="lazy">
-              </div>
-              <div class="signage-catalog-copy">
-                <span class="signage-catalog-tag">${product.tag}</span>
-                <h2>${product.title}</h2>
-                <p>${product.summary}</p>
-                <span class="signage-catalog-link">View signage <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></span>
-              </div>
-            </a>
-          `).join('')}
-        </div>
-      </div>
-    </section>
-
-  `;
-}
-
-
 /* =========================================================
    FORM FEEDBACK
 ========================================================= */
@@ -1036,7 +987,6 @@ document.addEventListener(
         */
 
         renderProductDetail();
-        renderSignageCatalog();
 
 
         /*

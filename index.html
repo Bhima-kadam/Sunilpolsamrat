@@ -17,6 +17,8 @@
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     >
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="floating-contact.css">
 </head>
 
 <body>
@@ -24,47 +26,7 @@
     <div class="watermark-bg"></div>
 
 
-    <!-- =========================================
-         STICKY SIDE BAR
-    ========================================= -->
-
-    <div class="sticky-side-bar">
-
-        <a
-            href="https://wa.me/917019533446"
-            target="_blank"
-            rel="noreferrer"
-            class="side-icon whatsapp"
-            title="WhatsApp"
-        >
-            <i class="fa-brands fa-whatsapp"></i>
-        </a>
-
-        <a
-            href="mailto:saamratsignx@gmail.com"
-            class="side-icon email"
-            title="Email"
-        >
-            <i class="fa-solid fa-envelope"></i>
-        </a>
-
-        <a
-            href="#contact"
-            class="side-icon maps"
-            title="Location"
-        >
-            <i class="fa-solid fa-map-location-dot"></i>
-        </a>
-
-        <a
-            href="tel:+917019533446"
-            class="side-icon phone"
-            title="Call Us"
-        >
-            <i class="fa-solid fa-phone"></i>
-        </a>
-
-    </div>
+    <floating-contact></floating-contact>
 
 
     <!-- =========================================
@@ -114,161 +76,11 @@
                         </a>
                     </li>
 
-
                     <li>
-
-                        <a
-                            href="#services"
-                        >
-                            Signages
+                        <a href="services.html">
+                            Services
                         </a>
-
-
-                        <div class="mega-menu-panel">
-
-                            <div class="container mega-menu-grid">
-
-                                <div class="mega-column">
-
-                                    <h4>
-                                        Letter Signages
-                                    </h4>
-
-                                    <ul>
-
-                                        <li>
-                                            <a href="product-detail.html?type=ss-letters">
-                                                Stainless Steel Letters
-                                            </a>
-                                        </li>
-
-                                        <li>
-                                            <a href="product-detail.html?type=gold-letters">
-                                                Gold Letters
-                                            </a>
-                                        </li>
-
-                                        <li>
-                                            <a href="product-detail.html?type=aluminum-letters">
-                                                Aluminium Letters
-                                            </a>
-                                        </li>
-
-                                        <li>
-                                            <a href="product-detail.html?type=acrylic-letters">
-                                                Acrylic Letters
-                                            </a>
-                                        </li>
-
-                                    </ul>
-
-                                </div>
-
-
-                                <div class="mega-column">
-
-                                    <h4>
-                                        Glow &amp; LED Signs
-                                    </h4>
-
-                                    <ul>
-
-                                        <li>
-                                            <a href="product-detail.html?type=3d-glow">
-                                                3D Glow Sign Board
-                                            </a>
-                                        </li>
-
-                                        <li>
-                                            <a href="product-detail.html?type=neon-board">
-                                                Neon Sign Board
-                                            </a>
-                                        </li>
-
-                                        <li>
-                                            <a href="product-detail.html?type=pylon-board">
-                                                Pylon Sign Board
-                                            </a>
-                                        </li>
-
-                                        <li>
-                                            <a href="product-detail.html?type=modular-signage">
-                                                LED Sign Board
-                                            </a>
-                                        </li>
-
-                                    </ul>
-
-                                </div>
-
-
-                                <div class="mega-column">
-
-                                    <h4>
-                                        Architectural
-                                    </h4>
-
-                                    <ul>
-
-                                        <li>
-                                            <a href="product-detail.html?type=acp-cladding">
-                                                ACP Cladding
-                                            </a>
-                                        </li>
-
-                                        <li>
-                                            <a href="product-detail.html?type=modular-signage">
-                                                Modular Signage
-                                            </a>
-                                        </li>
-
-                                        <li>
-                                            <a href="product-detail.html?type=ss-letters">
-                                                Custom Signage
-                                            </a>
-                                        </li>
-
-                                    </ul>
-
-                                </div>
-
-
-                                <div class="mega-column">
-
-                                    <h4>
-                                        Branding
-                                    </h4>
-
-                                    <ul>
-
-                                        <li>
-                                            <a href="product-detail.html?type=acrylic-letters">
-                                                Acrylic Signs
-                                            </a>
-                                        </li>
-
-                                        <li>
-                                            <a href="product-detail.html?type=ss-letters">
-                                                Glass Stickers
-                                            </a>
-                                        </li>
-
-                                        <li>
-                                            <a href="product-detail.html?type=gold-letters">
-                                                Vinyl Printing
-                                            </a>
-                                        </li>
-
-                                    </ul>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
                     </li>
-
 
                     <li>
                         <a href="#projects">
@@ -290,7 +102,7 @@
 
                     <li>
                         <a href="#contact">
-                            Contact
+                            Contact Us
                         </a>
                     </li>
 
@@ -315,63 +127,67 @@
         ========================================= -->
 
         <section id="home" class="hero-split-section">
-
             <div class="container hero-split-grid">
-
                 <div class="hero-left-content">
-
-                    <span class="eyebrow">
-                        Welcome to Saamrat SignX
-                    </span>
-
+                    <span class="eyebrow">Welcome to Saamrat SignX</span>
                     <h1 class="hero-main-title">
-                        Professional Signage &amp; Branding Solutions in <span>Bangalore</span>
+                        <span>Professional</span>
+                        <span>Signage &amp; Branding</span>
+                        <span>Solutions in</span>
+                        <span class="hero-title-highlight">Bangalore</span>
                     </h1>
-
                     <p class="hero-description-text">
-                        At Saamrat SignX, we create premium signage solutions that help businesses stand out and leave a lasting impression. From concept and design to manufacturing and installation, we deliver high-quality signboards tailored to your brand identity.
+                        At Saamrat SignX, we create premium signage solutions that help businesses stand out. From concept and design to manufacturing and installation, we deliver high-quality signage tailored to your brand.
                     </p>
-
                     <div class="hero-action-buttons">
-                        <a class="btn-primary" href="#contact">Get a Free Consultation <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+                        <a class="btn-primary" href="#contact">Get Free Consultation <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
                         <a class="btn-secondary" href="#projects">View Our Projects</a>
                     </div>
-
-                    <div class="home-hero-metrics">
-                        <div class="home-hero-metric">
-                            <span class="home-hero-metric-icon"><i class="fa-solid fa-briefcase" aria-hidden="true"></i></span>
-                            <span><strong>500+</strong><small>Projects Completed</small></span>
-                        </div>
-
-                        <div class="home-hero-metric">
-                            <span class="home-hero-metric-icon"><i class="fa-regular fa-calendar-days" aria-hidden="true"></i></span>
-                            <span><strong>5+</strong><small>Years of Experience</small></span>
-                        </div>
-
-                        <div class="home-hero-metric home-hero-trust">
-                            <span class="home-hero-metric-icon"><i class="fa-solid fa-shield-halved" aria-hidden="true"></i></span>
-                            <span><strong>Trusted by Businesses</strong><small>Across Karnataka</small></span>
-                        </div>
-                    </div>
-
                 </div>
-
 
                 <div class="hero-right-media">
-
-                    <div class="hero-image-wrapper">
-
-                        <img
-                            src="images/Home.png"
-                            alt="SAAMRAT SignX shop front signage and brand installation"
-                        >
-
+                    <div class="hero-image-stage">
+                        <div class="hero-image-wrapper">
+                            <img src="images/Home.png" alt="Premium reception and illuminated signage by Saamrat SignX">
+                            <figure class="hero-floating-card hero-floating-acrylic">
+                                <img src="our signges img/acrylic-letters.webp.png" alt="">
+                                <figcaption>Acrylic Letters</figcaption>
+                            </figure>
+                            <figure class="hero-floating-card hero-floating-led">
+                                <img src="our signges img/led-display-wall.webp.png" alt="">
+                                <figcaption>LED Display Wall</figcaption>
+                            </figure>
+                            <figure class="hero-floating-card hero-floating-glow">
+                                <img src="our signges img/3d-glow-sign.webp.png" alt="">
+                                <figcaption>3D Glow Sign</figcaption>
+                            </figure>
+                        </div>
                     </div>
-
                 </div>
-
             </div>
 
+            <div class="container home-hero-metrics" aria-label="Saamrat SignX at a glance">
+                <div class="home-hero-metric">
+                    <span class="home-hero-metric-icon"><i class="fa-solid fa-briefcase" aria-hidden="true"></i></span>
+                    <span><strong>500+</strong><small>Projects Completed</small></span>
+                </div>
+                <div class="home-hero-metric">
+                    <span class="home-hero-metric-icon"><i class="fa-regular fa-calendar-days" aria-hidden="true"></i></span>
+                    <span><strong>5+</strong><small>Years Experience</small></span>
+                </div>
+                <div class="home-hero-metric">
+                    <span class="home-hero-metric-icon"><i class="fa-solid fa-location-dot" aria-hidden="true"></i></span>
+                    <span><strong>Trusted</strong><small>Across Karnataka</small></span>
+                </div>
+                <div class="home-hero-metric">
+                    <span class="home-hero-metric-icon"><i class="fa-solid fa-pen-ruler" aria-hidden="true"></i></span>
+                    <span><strong>100%</strong><small>Custom Design</small></span>
+                </div>
+                <div class="home-hero-metric">
+                    <span class="home-hero-metric-icon"><i class="fa-solid fa-screwdriver-wrench" aria-hidden="true"></i></span>
+                    <span><strong>End-to-End</strong><small>Service</small></span>
+                </div>
+            </div>
         </section>
 
 
@@ -633,9 +449,6 @@
         </section>
 
 
-        <div id="signage-catalog-content"></div>
-
-
         <!-- =========================================
              PROJECTS
         ========================================= -->
@@ -757,96 +570,10 @@
     </main>
 
 
-    <!-- =========================================
-         FOOTER
-    ========================================= -->
+    <site-footer id="contact"></site-footer>
 
-    <footer id="contact">
-
-        <div class="container footer-grid">
-
-            <div class="footer-info">
-
-                <h3>
-                    SAAMRAT SIGNX PVT. LTD.
-                </h3>
-
-                <p>
-                    <i class="fa-solid fa-location-dot"></i>
-                    1st Floor, No 37, 2nd Cross Rd,
-                    <br>
-                    Mico Layout, 2nd stage, Omkar Nagar, Arkere,
-                    <br>
-                    Bengaluru, Karnataka - 560076
-                </p>
-
-            </div>
-
-
-            <div class="footer-contact">
-
-                <h3>
-                    Get In Touch
-                </h3>
-
-                <p>
-                    <i class="fa-solid fa-phone"></i>
-                    +91 7019533446
-                </p>
-
-                <p>
-                    <i class="fa-solid fa-phone"></i>
-                    +91 9148185515
-                </p>
-
-                <p>
-                    <i class="fa-solid fa-envelope"></i>
-                    saamratsignx@gmail.com
-                </p>
-
-            </div>
-
-
-            <div class="footer-social">
-
-                <h3>
-                    Follow Us
-                </h3>
-
-                <div class="social-icons">
-
-                    <a href="#" aria-label="Facebook">
-                        <i class="fa-brands fa-facebook"></i>
-                    </a>
-
-                    <a href="#" aria-label="Instagram">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
-
-                    <a href="#" aria-label="LinkedIn">
-                        <i class="fa-brands fa-linkedin"></i>
-                    </a>
-
-                </div>
-
-            </div>
-
-        </div>
-
-
-        <div class="footer-bottom text-center">
-
-            <p>
-                &copy;
-                <span id="currentYear"></span>
-                Saamrat SignX Pvt Ltd. All Rights Reserved.
-            </p>
-
-        </div>
-
-    </footer>
-
-
+    <script src="floating-contact.js" defer></script>
+    <script src="footer.js" defer></script>
     <script src="script.js?v=20260926-20"></script>
 
 </body>
